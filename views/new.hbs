@@ -1,13 +1,25 @@
 <form action="/new" method="post" accept-charset="utf-8">
-    <label for="title">Title</label>
-    <input type="text" name="title" id="title" placeholder="Title">
-
-    <label for="description">Description</label>
-    <input type="text" name="description" id="description" placeholder="description">
-
-    <textarea rows="4" cols="50" name="instructions" id="instructions">Instructions</textarea>
-
-    <textarea rows="4" cols="50" name="ingredients" id="ingredients">Ingredients seperated by comma</textarea>
-
+    <div class="row">
+        <div class="six columns">
+            <label for="title">Title</label>
+            <input type="text" name="title" id="title" placeholder="Title">
+        </div>
+    </div>
+    <div class="row">
+        <div class="six columns">
+            <label for="description">Description</label>
+            <input type="text" name="description" id="description" placeholder="description">
+        </div>
+    </div>
+    <div class="row">
+        <div class="six columns">
+            <textarea rows="4" cols="50" name="instructions" id="instructions">Instructions</textarea>
+        </div>
+    </div>
+    <div class="row">
+        <div class="six columns">
+            <textarea rows="4" cols="50" name="ingredients" id="ingredients">Ingredients seperated by comma</textarea>
+        </div>
+    </div>
     <input type="submit" value="Add recipe">
 </form>

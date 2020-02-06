@@ -33,12 +33,15 @@ router.post('/new', (req, res) => {
 		.catch(console.error);
 });
 //view one
-router.get('/:id',(req,res) => {
-	Recipe.findById(req.params.id).then(recipe => {
-		res.render("show",recipe);
-	}).catch(console.error)})
+router.get('/:id', (req, res) => {
+	Recipe.findById(req.params.id)
+		.then((recipe) => {
+			res.render('show', recipe);
+		})
+		.catch(console.error);
+});
 //update
-router.put('/:id/edit', (req,res)=>{
+router.put('/:id/edit', (req, res) => {
 	let ingredients = req.body.ingredients.split(',');
 	const recipeObject = {
 		title: req.body.title,
@@ -46,16 +49,16 @@ router.put('/:id/edit', (req,res)=>{
 		instructions: req.body.instructions,
 		ingredients
 	};
-	Recipe.findOneAndUpdate({_id:req.params.id},recipeObject,{new:true})
-	.then(recipe => {
-		res.redirect("/")
-	})
-	
-})
+	Recipe.findOneAndUpdate({ _id: req.params.id }, recipeObject, {
+		new: true
+	}).then((recipe) => {
+		res.redirect('/');
+	});
+});
 //delete
-router.delete('/:id',(req,res)=>{
-	Recipe.findByIdAndRemove({_id:req.params.id}).then(()=>{
-		res.redirect("/")
-	})
-})
+router.delete('/:id', (req, res) => {
+	Recipe.findByIdAndRemove({ _id: req.params.id }).then(() => {
+		res.redirect('/');
+	});
+});
 module.exports = router;

@@ -1,15 +1,18 @@
-<h1>recipes </h1>
-<a href="/new">Create new Recipe</a>
+<a href="/new">
+    <h3>Create new Recipe</h3>
+</a>
 {{#each recipes }}
-<h3>{{this.title}}</h3>
-<ul>
-    <li>{{this.description}}</li>
-    <li>{{this.instructions}}</li>
-    <h5>Ingredients</h5>
-    <ul>{{#each this.ingredients}}
-        <li>{{this}}</li>
-        {{/each}}
+<div class="six coulmns">
+    <h3>{{this.title}}</h3>
+    <ul>
+        <li>{{this.description}}</li>
+        <li>{{this.instructions}}</li>
+        <h5>Ingredients</h5>
+        <ul>{{#each this.ingredients}}
+            <li>{{this}}</li>
+            {{/each}}
+        </ul>
     </ul>
-</ul>
-<a href={{this._id}}><button>view</button></a>
-{{/each}}
+    <a href={{this._id}}><button class="button-primary">view</button></a>
+    {{/each}}
+</div>
