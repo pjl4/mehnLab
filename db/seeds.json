@@ -1,35 +1,30 @@
 [
-    {
-        "title":"The BEST Fluffy Buttermilk Pancakes",
-        "description":"The BEST Fluffy Buttermilk Pancakes you'll ever try! This easy to follow pancake recipe yields super delicious and totally amazing pancakes every time!",
-        "instructions":"Whisk together the dry ingredients in a large bowl or, as I frequently do, a large glass measuring cup. Whisk in the buttermilk, eggs and vanilla extract just until combined. Some small lumps are okay. Let pancake batter rest for 10 minutes.
-        Heat a large skillet or griddle over medium-high heat.
-        Spray with non-stick cooking spray OR brush with butter or oil. Ladle 1/3 - 1/2 cup batter onto the griddle for each pancake.
-        Flip the pancakes over when small bubbles appear on the surface and continue cooking on the opposite side until golden brown. Serve with butter and syrup.",
-        "ingredients":["2 cups all-purpose flour","2 tsp baking powder","1 tsp baking soda","½ tsp salt","2 tbsp granulated sugar","2 cups buttermilk","2 large eggs lightly beaten","1 tsp vanilla extract optional"]
-    },
-    {
-        "title":"CREAMY GARLIC CHICKEN BREAST RECIPE",
-        "description":"Lightly floured boneless chicken breasts are pan fried in until golden and crispy before being added to a mouth-watering garlic cream sauce! Filled with caramelized flavour, you will LOVE how easy this is! ",
-        "instructions":"Season the chicken with salt, garlic powder and pepper.
-        In a shallow bowl, combine the flour, parmesan cheese. Dredge chicken in the flour mixture; shake off excess.
-        Heat 2 tablespoons of oil and 1 tablespoon butter in a large skillet over medium-high heat. Swirl pan to coat evenly. 
-        Fry 2-3 chicken breasts until golden on each side, cooked through and no longer pink (about 4-5 minutes each side, depending on the thickness of your chicken). Transfer to a warm plate. Set aside.
-        Wipe pan over with a sheet of paper towel. Repeat with remaining oil, butter and chicken breasts. When cooked, transfer the chicken onto the same plate.
-        Reduce heat to medium. Sauté the onion in the remaining oil/juices in the pan until softened. 
-        Smash 6 whole cloves of garlic with the blunt edge of the back of a knife 
-        Add the remaining oil to the pan and heat through, mixing it through the onions. Sauté smashed garlic cloves and whole garlic cloves until fragrant, about 2-3 minutes. Add the broth to deglaze the pan. Scrape up any browned bits and let simmer and reduce to half, about 5 minutes.
-        Reduce heat to medium-low. Pour in the cream. Bring the sauce to a gentle simmer for about 2-3 minutes, combining all of the flavours together.
-        Mix in the parmesan cheese. Continue cooking gently for about 2-3 minutes until cheese melts, while stirring occasionally. Season with salt and pepper to your taste. 
-        Add the chicken back into the pan and let simmer for a further 2-3 minutes to thicken the sauce to your liking. The chicken breast will soak up all of the delicious flavours.
-        Garnish with parsley and a little black cracked pepper. 
-        Serve over pasta, cauliflower mash, zucchini noodles, rice or mashed potatoes.",
-        "ingredients":["2-3 large boneless and skinless chicken breasts halved horizontally to make 4",
-            "4 tablespoons flour (all purpose or plain)",
-            "4 tablespoons finely grated fresh Parmesan cheese",
-            "2 teaspoon salt",
-            "1 teaspoon garlic powder",
-            "1/2 teaspoon Black cracked pepper"]
-    }
-
+	{
+		"title": "The BEST Fluffy Buttermilk Pancakes",
+		"description": "The BEST Fluffy Buttermilk Pancakes you'll ever try! This easy to follow pancake recipe yields super delicious and totally amazing pancakes every time!",
+		"instructions": "Make the pancakes",
+		"ingredients": [
+			"2 cups all-purpose flour",
+			"2 tsp baking powder",
+			"1 tsp baking soda",
+			"½ tsp salt",
+			"2 tbsp granulated sugar",
+			"2 cups buttermilk",
+			"2 large eggs lightly beaten",
+			"1 tsp vanilla extract optional"
+		]
+	},
+	{
+		"title": "CREAMY GARLIC CHICKEN BREAST RECIPE",
+		"description": "Lightly floured boneless chicken breasts are pan fried in until golden and crispy before being added to a mouth-watering garlic cream sauce! Filled with caramelized flavour, you will LOVE how easy this is! ",
+		"instructions": "Cook the chicken",
+		"ingredients": [
+			"2-3 large boneless and skinless chicken breasts halved horizontally to make 4",
+			"4 tablespoons flour (all purpose or plain)",
+			"4 tablespoons finely grated fresh Parmesan cheese",
+			"2 teaspoon salt",
+			"1 teaspoon garlic powder",
+			"1/2 teaspoon Black cracked pepper"
+		]
+	}
 ]
