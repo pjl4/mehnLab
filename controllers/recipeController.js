@@ -19,7 +19,6 @@ router.get('/new', (req, res) => {
 });
 
 router.post('/new', (req, res) => {
-	console.log(req.body);
 	let ingredients = req.body.ingredients.split(',');
 	const recipeObject = {
 		title: req.body.title,
@@ -27,7 +26,11 @@ router.post('/new', (req, res) => {
 		instructions: req.body.instructions,
 		ingredients
 	};
-	console.log(recipeObject);
+	Recipe.create(recipeObject)
+		.then((recipe) => {
+			res.redirect('/');
+		})
+		.catch(console.error);
 });
 //view one
 
