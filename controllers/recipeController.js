@@ -5,7 +5,10 @@ const Recipe = require('../db/models/recipeModel');
 const router = express.Router();
 
 router.get('/', (req, res) => {
-	res.send('<h1>Testing response for /</h1>');
+	Recipe.find({}).then(recipes => {
+		res.render ('index',{recipes})
+
+	}).catch (console.error);
 });
 
 module.exports = router;
