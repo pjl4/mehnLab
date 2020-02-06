@@ -2,10 +2,12 @@
     <h3>Create new Recipe</h3>
 </a>
 {{#each recipes }}
-<div class="six coulmns">
+<div class="six coulmns recipeContainer">
     <h3>{{this.title}}</h3>
     <ul>
+        <h5>Description</h5>
         <li>{{this.description}}</li>
+        <h5>Instructions</h5>
         <li>{{this.instructions}}</li>
         <h5>Ingredients</h5>
         <ul>{{#each this.ingredients}}
