@@ -33,7 +33,10 @@ router.post('/new', (req, res) => {
 		.catch(console.error);
 });
 //view one
-
+router.get('/:id',(req,res) => {
+	Recipe.findById(req.params.id).then(recipe => {
+		res.render("show",recipe);
+	}).catch(console.error)})
 //update
 
 //delete

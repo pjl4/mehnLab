@@ -1,0 +1,13 @@
+<form action="/{{_id}}/edit?_method=put" method="post" accept-charset="utf-8">
+    <label for="title">Title</label>
+    <input type="text" name="title" id="title" value="{{title}}">
+
+    <label for="description">Description</label>
+    <input type="text" name="description" id="description" value="{{description}}">
+
+    <textarea rows="4" cols="50" name="instructions" id="instructions">{{instructions}}</textarea>
+
+    <textarea rows="4" cols="50" name="ingredients" id="ingredients">{{ingredients}}</textarea>
+
+    <input type="submit" value="edit recipe">
+</form>
