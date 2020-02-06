@@ -38,7 +38,20 @@ router.get('/:id',(req,res) => {
 		res.render("show",recipe);
 	}).catch(console.error)})
 //update
-
+router.put('/:id/edit', (req,res)=>{
+	let ingredients = req.body.ingredients.split(',');
+	const recipeObject = {
+		title: req.body.title,
+		description: req.body.description,
+		instructions: req.body.instructions,
+		ingredients
+	};
+	Recipe.findOneAndUpdate({_id:req.params.id},recipeObject,{new:true})
+	.then(recipe => {
+		res.redirect("/")
+	})
+	
+})
 //delete
 
 module.exports = router;
