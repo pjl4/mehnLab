@@ -53,5 +53,9 @@ router.put('/:id/edit', (req,res)=>{
 	
 })
 //delete
-
+router.delete('/:id',(req,res)=>{
+	Recipe.findByIdAndRemove({_id:req.params.id}).then(()=>{
+		res.redirect("/")
+	})
+})
 module.exports = router;
